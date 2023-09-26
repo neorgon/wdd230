@@ -1,0 +1,39 @@
+@import url('header.css');
+@import url('main.css');
+@import url('media-query.css');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  font-family: 'Kanit';
+}
+
+a {
+  color: #1473E6;
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  line-height: 1.7rem;
+}
+
+ul {
+  padding: 0;
+}
+
+footer {
+  background-color: #eee;
+  border-top: 2px solid #bbb;
+  padding: 20px 40px;
+}

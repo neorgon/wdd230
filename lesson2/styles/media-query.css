@@ -1,0 +1,58 @@
+@media screen and (max-width: 860px) {
+
+  nav {
+    display: none;
+  }
+
+  .hero {
+    padding: 20px;
+  }
+
+  .hero .columns {
+    padding: 10px 0;
+  }
+
+  main section {
+    grid-template-columns: 50% 50%;
+  }
+
+  main section > div:last-child {
+    grid-column-start: 1;
+    grid-column-end: -1;
+  }
+
+}
+
+@media screen and (max-width: 620px) {
+
+  .hero h1, .hero h2 {
+    font-size: 5rem;
+  }
+
+  .hero h1 {
+    align-items: center;
+    display: flex;
+  }
+  
+  .hero h1 span {
+    font-size: 0.55rem;
+    padding-left: 20px;
+  }
+
+  .hero h3 {
+    font-size: 1.3rem;
+  }
+
+  .hero p {
+    font-size: 0.8rem;
+  }
+
+  main section {
+    display: block;
+  }
+
+  main section div {
+    margin-bottom: 20px;
+  }
+
+}

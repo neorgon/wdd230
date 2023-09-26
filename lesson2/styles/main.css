@@ -1,0 +1,63 @@
+main div {
+  padding: 20px 40px;
+}
+
+.hero {
+  background-color: #014365;
+  color: #fff;
+  margin-bottom: 20px;
+  padding: 40px 120px;
+}
+
+.hero h1 {
+  color: #1DEAE3;
+  font-size: 7rem;
+}
+
+.hero h1 span {
+  color: #fff;
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+.hero h2 {
+  color: #fff;
+  font-size: 7rem;
+}
+
+.hero h3 {
+  color: #1DEAE3;
+  font-size: 2rem;
+  padding: 20px 0;
+}
+
+.hero .columns {
+  display: flex;
+}
+
+.hero .columns p:first-child {
+  border-right: 3px solid #1DEAE3;
+  padding-right: 10px;
+}
+
+.hero .columns p:last-child {
+  padding-left: 20px;
+}
+
+main section {
+  display: grid;
+  column-gap: 20px;
+  grid-template-columns: 32% 32% 32%;
+  padding: 20px 0;
+  row-gap: 20px;
+}
+
+.card {
+  border: 1px solid #e3e3e3;
+  border-radius: 7px;
+  padding: 20px;
+}
+
+.card img {
+  padding: 10px 0;
+}
