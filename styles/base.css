@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Ubuntu+Condensed&display=swap');
+@import url('header.css');
 
 * {
   box-sizing: border-box;
@@ -14,21 +15,6 @@ a {
   text-decoration: none;
 }
 
-header {
-  align-items: center;
-  background-color: #1D4D72;
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  padding: 33px 0;
-}
-
-header img {
-  height: 178px;
-  padding-right: 69px;
-  width: auto;
-}
-
 nav {
   background-color: #000;
   text-align: center;
@@ -36,6 +22,7 @@ nav {
 
 nav ul {
   list-style: none;
+  margin: 0;
   padding: 0;
 }
 
@@ -56,6 +43,11 @@ main {
 main h2 {
   border-bottom: 2px solid #acacac;
   text-align: center;
+}
+
+main div {
+  display: grid;
+  column-gap: 20px;
 }
 
 .card {

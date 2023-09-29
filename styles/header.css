@@ -1,0 +1,59 @@
+header {
+  align-items: center;
+  background-color: #1D4D72;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 33px 0;
+  position: relative;
+}
+
+header img {
+  height: 178px;
+  padding-right: 69px;
+  width: auto;
+}
+
+.hamburger-button {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height: 26px;
+  justify-content: space-between;
+  position: absolute;
+  right: 20px;
+  top: 33px;
+  width: 32px;
+}
+
+.hamburger-button input {
+  cursor: pointer;
+  height: 34px;
+  opacity: 0;
+  position: absolute;
+  right: -3px;
+  top: -4px;
+  width: 40px;
+  z-index: 10;
+}
+
+.hamburger-button span {
+  background-color: #fff;
+  border-radius: 5px;
+  display: block;
+  height: 4px;
+  width: 100%;
+  z-index: 5;
+}
+
+.hamburger-button input:checked ~ span {
+  transform: rotate(45deg) translate(8px, 8px);
+}
+
+.hamburger-button input:checked ~ span:nth-last-child(2) {
+  transform: rotate(-45deg) translate(0, 0);
+}
+
+.hamburger-button input:checked ~ span:nth-last-child(1) {
+  opacity: 0;
+}

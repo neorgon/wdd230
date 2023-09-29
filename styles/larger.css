@@ -2,7 +2,11 @@
   
   header, nav, main, footer {
     margin: 0 auto;
-    width: 640px;
+    /* width: 640px; */
+  }
+
+  main div {
+    grid-template-columns: 1fr 1fr;
   }
 
   nav ul {
