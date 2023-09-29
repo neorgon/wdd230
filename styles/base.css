@@ -36,6 +36,10 @@ nav a:hover {
   background-color: #4a4a4a;
 }
 
+.show-menu {
+  transform: translateY(0);
+}
+
 main {
   padding: 32px;
 }

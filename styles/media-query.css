@@ -1,22 +1,25 @@
-body {
-  font-family: 'Roboto';
-}
+@media screen and (max-width: 640px) {
+  
+  .hamburger-button {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
 
-header, main, footer {
-  border: 1px solid #bbb;
-  background-color: #e6f2ff;
-  margin: 1rem auto;
-  max-width: 640px;
-  padding: 1rem;
-}
+  nav {
+    transform: translateY(-100%);
+    transition: transform 0.2s;
+    top: 244px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 5;
+  }
+  
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+  }
 
-main {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 1rem;
-}
-
-section {
-  background-color: #fff;
-  padding: 1rem;
 }

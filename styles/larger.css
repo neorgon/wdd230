@@ -1,8 +1,11 @@
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 641px) {
   
   header, nav, main, footer {
     margin: 0 auto;
-    /* width: 640px; */
+  }
+
+  .hamburger-button {
+    display: none;
   }
 
   main div {
