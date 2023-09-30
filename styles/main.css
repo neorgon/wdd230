@@ -1,0 +1,46 @@
+main {
+  display: grid;
+  column-gap: 20px;
+  padding: 32px;
+}
+
+main h2 {
+  border-bottom: 2px solid #acacac;
+  text-align: center;
+  grid-column: 1/3;
+}
+
+.card {
+  border: 1px solid #b2b2b2;
+  border-radius: 5px;
+  margin-bottom: 17px;
+}
+
+.card h3 {
+  background-color: #1D4D72;
+  color: #fff;
+  margin: 0;
+  padding: 32px 0;
+  text-align: center;
+}
+
+.card ul {
+  list-style: none;
+  padding: 32px;
+}
+
+.card ul li {
+  padding: 13px 0;
+}
+
+.card p {
+  text-align: center;
+}
+
+.map {
+  grid-column: 1/3;
+}
+
+.map iframe {
+  width: 100%;
+}

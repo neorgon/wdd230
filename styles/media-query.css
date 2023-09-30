@@ -22,4 +22,8 @@
     grid-gap: 1rem;
   }
 
+  main h2, .map {
+    grid-column: auto;
+  }
+
 }

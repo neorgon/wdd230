@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Ubuntu+Condensed&display=swap');
 @import url('header.css');
+@import url('main.css');
 
 * {
   box-sizing: border-box;
@@ -13,6 +14,11 @@ body {
 
 a {
   text-decoration: none;
+}
+
+img {
+  aspect-ratio: auto 2 / 3;
+  max-width: 100%;
 }
 
 nav {
@@ -38,47 +44,6 @@ nav a:hover {
 
 .show-menu {
   transform: translateY(0);
-}
-
-main {
-  padding: 32px;
-}
-
-main h2 {
-  border-bottom: 2px solid #acacac;
-  text-align: center;
-}
-
-main div {
-  display: grid;
-  column-gap: 20px;
-}
-
-.card {
-  border: 1px solid #b2b2b2;
-  border-radius: 5px;
-  margin-bottom: 17px;
-}
-
-.card h3 {
-  background-color: #1D4D72;
-  color: #fff;
-  margin: 0;
-  padding: 32px 0;
-  text-align: center;
-}
-
-.card ul {
-  list-style: none;
-  padding: 32px;
-}
-
-.card ul li {
-  padding: 13px 0;
-}
-
-.card p {
-  text-align: center;
 }
 
 footer {

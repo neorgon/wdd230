@@ -8,7 +8,7 @@
     display: none;
   }
 
-  main div {
+  main {
     grid-template-columns: 1fr 1fr;
   }
 
