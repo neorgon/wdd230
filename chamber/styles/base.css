@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Lunasima:wght@400;700&family=Nunito:wght@200;400&display=swap');
+@import url('normalize.css');
+@import url('header.css');
+@import url('medium.css');
+@import url('large.css');
+
+:root {
+  --dark-primary-color: #303f9f;
+  --light-primary-color: #c5cae9;
+  --primary-color: #3f51b5;
+  --text-icons: #fff;
+  --accent-color: #607d8b;
+  --primary-text: #212121;
+  --secondary-text: #757575;
+  --divider-color: #bdbdbd;
+
+  --accent-rgb: 63 81 181;
+  --primary-rgb: var(--accent-rgb);
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Lunasima';
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  display: inline-block;
+  min-height: 1em;
+  outline: none;
+  border: none;
+  vertical-align: baseline;
+  color: var(--text-icons);
+  margin: 0em 0.25em 0em 0em;
+  padding: 0.78571429em 1.5em 0.78571429em;
+  text-transform: none;
+  text-shadow: none;
+  font-weight: bold;
+  line-height: 1em;
+  font-style: normal;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 0.28571429rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: opacity 0.1s ease, background-color 0.1s ease, color 0.1s ease, box-shadow 0.1s ease, background 0.1s ease;
+  will-change: '';
+  -webkit-tap-highlight-color: transparent;
+}
+
+img {
+  max-width: 100%;
+}
+
+.hero {
+  height: 500px;
+  position: relative;
+  z-index: 10;
+}
+
+.hero .screen-image {
+  animation: slidein 15s;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  background-image: url('../images/tiquipaya-001.jpg');
+  background-size: cover;
+  height: 100%;
+  opacity: 0.6;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+
+  -webkit-animation: slidein 15s;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-iteration-count: infinite;
+}
+
+.hero .screen-overlay {
+  animation: pan-overlay 22s infinite linear;
+  background: linear-gradient(rgb(var(--primary-rgb) / 0.15),
+      rgb(var(--primary-rgb) / 0.15) 3px,
+      transparent 3px,
+      transparent 9px);
+  background-size: 100% 9px;
+  height: 100%;
+  left: 0;
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+
+  -webkit-animation: pan-overlay 22x infinite linear;
+}
+
+.logo-hero {
+  position: absolute;
+  z-index: 20;
+}
+
+.intro-hero {
+  bottom: 0;
+  color: var(--text-icons);
+  font-family: 'Nunito';
+  height: 50%;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  width: 60%;
+  z-index: 20;
+}
+
+.intro-hero button {
+  background-color: #2185d0;
+}
+
+@-webkit-keyframes slidein {
+  from {
+    background-position: top;
+    background-size: 2500px;
+  }
+
+  to {
+    background-position: -100px;
+    background-size: 2250px;
+  }
+}
+
+@keyframes slidein {
+  from {
+    background-position: top;
+    background-size: 2500px;
+  }
+
+  to {
+    background-position: -100px;
+    background-size: 2250px;
+  }
+}
+
+@keyframes pan-overlay {
+  from {
+    background-position: 0% 0%;
+  }
+
+  to {
+    background-position: 0% -100%;
+  }
+}
+
+.info-cards {
+  padding: 20px;
+  position: relative;
+}
+
+.card {
+  border: 1px solid var(--light-primary-color);
+  margin-bottom: 20px;
+  box-shadow: 1px 3px 2px 0px rgba(117, 117, 117, 0.4);
+  -webkit-box-shadow: 1px 3px 2px 0px rgba(117, 117, 117, 0.4);
+  -moz-box-shadow: 1px 3px 2px 0px rgba(117, 117, 117, 0.4);
+}
+
+.body-card {
+  padding: 10px;
+}
+
+.body-card>h1 {
+  font-size: 1.8rem;
+  margin-top: 0;
+}
+
+.body-card>p:nth-child(n + 3) {
+  color: var(--dark-primary-color);
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.body-card>p:last-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.body-card button {
+  background-color: #f2711c;
+}
+
+footer {
+  background-color: var(--accent-color);
+  color: var(--light-primary-color);
+  padding: 20px;
+  text-align: center;
+}
+
+footer nav ul {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 10px 0;
+}
+
+footer p {
+  font-weight: bold;
+}

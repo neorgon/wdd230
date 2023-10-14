@@ -1,0 +1,35 @@
+@media screen and (min-width: 720px) {
+  
+  .hamburger-button {
+    display: none;
+  }
+
+  #menu {
+    background: none;
+    left: 320px;
+    top: 55px;
+    transform: translateY(0);
+  }
+
+  #menu ul {
+    display: flex;
+  }
+  
+  #menu a {
+    color: var(--text-icons);
+    text-shadow: 1px 1px 2px rgba(117, 117, 117, 0.6);
+  }
+
+  #menu a:hover {
+    background-color: var(--dark-primary-color);
+    border-radius: 5px;
+    opacity: 0.6;
+  }
+
+  .info-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+  }
+
+}

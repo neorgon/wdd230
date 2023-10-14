@@ -1,0 +1,17 @@
+@media screen and (min-width: 960px) {
+
+  .hamburger-button {
+    display: none;
+  }
+  
+  .info-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+  }
+
+  footer nav {
+    padding: 20px 450px;
+  }
+
+}

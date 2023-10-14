@@ -1,0 +1,84 @@
+header {
+  align-items: center;
+  background-color: var(--dark-primary-color);
+  color: var(--text-icons);
+  display: flex;
+  height: 36px;
+  justify-content: right;
+  position: relative;
+  z-index: 10;
+}
+
+header span {
+  padding-right: 20px;
+}
+
+.hamburger-button {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height: 19px;
+  justify-content: space-between;
+  position: absolute;
+  left: 20px;
+  top: 8px;
+  width: 25px;
+}
+
+.hamburger-button input {
+  cursor: pointer;
+  height: 26px;
+  opacity: 0;
+  position: absolute;
+  right: -3px;
+  top: -4px;
+  width: 30px;
+  z-index: 10;
+}
+
+.hamburger-button span {
+  background-color: #fff;
+  display: block;
+  height: 3px;
+  width: 100%;
+  z-index: 5;
+}
+
+.hamburger-button input:checked ~ span {
+  transform: rotate(45deg) translate(7px, 6px);
+}
+
+.hamburger-button input:checked ~ span:nth-last-child(2) {
+  transform: rotate(-45deg) translate(0, 1px);
+}
+
+.hamburger-button input:checked ~ span:nth-last-child(1) {
+  opacity: 0;
+}
+
+.show-menu {
+  transform: translateY(23%) !important;
+}
+
+#menu {
+  background-color: var(--dark-primary-color);
+  transform: translateY(-100%);
+  transition: transform 0.2s;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 30;
+}
+
+#menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#menu a {
+  color: var(--light-primary-color);
+  display: block;
+  padding: 10px 20px;
+}
