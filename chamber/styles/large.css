@@ -3,15 +3,15 @@
   .hamburger-button {
     display: none;
   }
+
+  header span:has(>.icon) {
+    display: inline;
+  }
   
   .info-cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 20px;
-  }
-
-  footer nav {
-    padding: 20px 450px;
   }
 
 }

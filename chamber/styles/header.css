@@ -10,22 +10,27 @@ header {
   z-index: 10;
 }
 
-span:has(>.icon):first-child {
+header span:has(>.icon) {
+  display: none;
+}
+
+header span:has(>.icon):first-child {
+  display: inline;
   border-left: none;
 }
 
-span:has(>.icon) {
+header span:has(>.icon) {
   border-left: 1px solid var(--light-primary-color);
   padding-left: 15px;
   padding-right: 8px;
 }
 
-.icon {
+header .icon {
   padding-right: 24px;
   position: relative;
 }
 
-.icon img {
+header .icon img {
   filter: brightness(0) invert(1);
   max-height: 18px;
   position: absolute;

@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lunasima:wght@400;700&family=Nunito:wght@200;400&display=swap');
 @import url('normalize.css');
 @import url('header.css');
+@import url('main.css');
 @import url('medium.css');
 @import url('large.css');
 
@@ -157,44 +158,6 @@ img {
   }
 }
 
-.info-cards {
-  padding: 20px;
-  position: relative;
-}
-
-.card {
-  border: 1px solid var(--light-primary-color);
-  margin-bottom: 20px;
-  box-shadow: 1px 3px 2px 0px rgba(117, 117, 117, 0.4);
-  -webkit-box-shadow: 1px 3px 2px 0px rgba(117, 117, 117, 0.4);
-  -moz-box-shadow: 1px 3px 2px 0px rgba(117, 117, 117, 0.4);
-}
-
-.body-card {
-  padding: 10px;
-}
-
-.body-card>h1 {
-  font-size: 1.8rem;
-  margin-top: 0;
-}
-
-.body-card>p:nth-child(n + 3) {
-  color: var(--dark-primary-color);
-  font-size: 0.8rem;
-  font-weight: bold;
-}
-
-.body-card>p:last-child {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.body-card button {
-  background-color: #f2711c;
-}
-
 footer {
   background-color: var(--accent-color);
   color: var(--light-primary-color);
@@ -202,15 +165,34 @@ footer {
   text-align: center;
 }
 
+footer a {
+  border-bottom: 1px dashed var(--light-primary-color);
+  color: var(--light-primary-color);
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+footer a:hover {
+  border-bottom: none;
+  color: var(--text-icons);
+}
+
 footer nav ul {
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
   list-style: none;
   margin: 0;
   padding: 10px 0;
 }
 
+footer nav ul li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
 footer p {
   font-weight: bold;
+}
+
+footer .icon img {
+  filter: invert(86%) sepia(5%) saturate(1249%) hue-rotate(196deg) brightness(97%) contrast(88%);
+  height: 16px;
 }

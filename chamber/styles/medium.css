@@ -4,11 +4,16 @@
     display: none;
   }
 
+  header span:has(>.icon) {
+    display: inline;
+  }
+
   #menu {
     background: none;
     left: 320px;
     top: 55px;
     transform: translateY(0);
+    width: auto;
   }
 
   #menu ul {
