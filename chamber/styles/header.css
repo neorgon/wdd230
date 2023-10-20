@@ -5,12 +5,31 @@ header {
   display: flex;
   height: 36px;
   justify-content: right;
+  padding: 0 10px;
   position: relative;
   z-index: 10;
 }
 
-header span {
-  padding-right: 20px;
+span:has(>.icon):first-child {
+  border-left: none;
+}
+
+span:has(>.icon) {
+  border-left: 1px solid var(--light-primary-color);
+  padding-left: 15px;
+  padding-right: 8px;
+}
+
+.icon {
+  padding-right: 24px;
+  position: relative;
+}
+
+.icon img {
+  filter: brightness(0) invert(1);
+  max-height: 18px;
+  position: absolute;
+  width: 18px;
 }
 
 .hamburger-button {
