@@ -60,46 +60,25 @@ img {
 }
 
 .hero {
-  height: 500px;
-  position: relative;
-  z-index: 10;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 500px;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  align-content: center;
+  justify-content: center;
 }
 
-.hero .screen-image {
-  animation: slidein 15s;
-  animation-direction: alternate;
-  animation-fill-mode: forwards;
-  animation-iteration-count: infinite;
-  background-image: url('../images/tiquipaya-001.jpg');
-  background-size: cover;
-  height: 100%;
-  opacity: 0.6;
-  position: absolute;
-  width: 100%;
-  z-index: 1;
-
-  -webkit-animation: slidein 15s;
-  -webkit-animation-direction: alternate;
-  -webkit-animation-fill-mode: forwards;
-  -webkit-animation-iteration-count: infinite;
+.screen-image, .intro-hero {
+  grid-area: 1 / 1 / 2 / 2;
 }
 
-.hero .screen-overlay {
-  animation: pan-overlay 22s infinite linear;
-  background: linear-gradient(rgb(var(--primary-rgb) / 0.15),
-      rgb(var(--primary-rgb) / 0.15) 3px,
-      transparent 3px,
-      transparent 9px);
-  background-size: 100% 9px;
-  height: 100%;
-  left: 0;
-  opacity: 0.8;
-  position: absolute;
-  top: 0;
+.hero-image {
+  display: grid;
+  min-width: 500px;
   width: 100%;
-  z-index: 2;
-
-  -webkit-animation: pan-overlay 22x infinite linear;
+  height: 100%;
+  object-fit: cover;
 }
 
 .logo-hero {
@@ -108,54 +87,15 @@ img {
 }
 
 .intro-hero {
-  bottom: 0;
+  align-items: center;
   color: var(--text-icons);
+  display: grid;
   font-family: 'Nunito';
-  height: 50%;
-  left: 0;
-  margin: auto;
-  position: absolute;
-  right: 0;
-  width: 60%;
-  z-index: 20;
+  justify-content: center;
 }
 
 .intro-hero button {
   background-color: #2185d0;
-}
-
-@-webkit-keyframes slidein {
-  from {
-    background-position: top;
-    background-size: 2500px;
-  }
-
-  to {
-    background-position: -100px;
-    background-size: 2250px;
-  }
-}
-
-@keyframes slidein {
-  from {
-    background-position: top;
-    background-size: 2500px;
-  }
-
-  to {
-    background-position: -100px;
-    background-size: 2250px;
-  }
-}
-
-@keyframes pan-overlay {
-  from {
-    background-position: 0% 0%;
-  }
-
-  to {
-    background-position: 0% -100%;
-  }
 }
 
 footer {

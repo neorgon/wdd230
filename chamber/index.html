@@ -51,18 +51,29 @@
   </nav>
   <main>
     <div class="hero">
-      <div class="screen-image"></div>
-      <div class="screen-overlay"></div>
+      <div class="screen-image">
+        <picture>
+          <source media="(max-width: 420px)" srcset="images/tiquipaya-001-small.webp">
+          <source media="(max-width: 720px)" srcset="images/tiquipaya-001-medium.webp">
+          <img class="hero-image" src="images/tiquipaya-001.webp" alt="Tiquipaya">
+        </picture>
+      </div>
       <div class="logo-hero">
-        <img src="images/logo-tcc.png" alt="Tiquipaya Chamber Commerce">
+        <a href="index.html">
+          <img src="images/logo-tcc.png" alt="Tiquipaya Chamber Commerce">
+        </a>
       </div>
       <div class="intro-hero">
-        <h1>
-          Lorem Ipsum
-          <br>
-          Dolor Sit Amet
-        </h1>
-        <button>Join Us</button>
+        <span>
+          <h1>
+            Lorem Ipsum
+            <br>
+            Dolor Sit Amet
+          </h1>
+          <p>
+            <button>Join Us</button>
+          </p>
+        </span>
       </div>
     </div>
     <section class="info-cards">
