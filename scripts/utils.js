@@ -11,3 +11,11 @@ const toggleMenu = () => {
 }
 
 hamburgerButton.addEventListener('click', toggleMenu);
+
+const showNumberVisit = document.getElementById('visit');
+
+let numVisit = Number(window.localStorage.getItem('wdd-visit')) || 0;
+
+showNumberVisit.textContent = numVisit;
+numVisit++;
+localStorage.setItem('wdd-visit', numVisit);
