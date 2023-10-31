@@ -65,3 +65,7 @@
   border-radius: 7px;
   padding: 1px;
 }
+
+.card .to-visitor {
+  text-align: center;
+}
