@@ -51,17 +51,11 @@
 .discover {
   display: grid;
   gap: 10px;
-  grid-template-columns: 40% 60%;
-  margin: 20px 80px;
-}
-
-.sidebar {
-  grid-column: 1 / 2;
+  margin: 20px;
 }
 
 .images {
   display: grid;
-  grid-column: 2 / 3;
   grid-template-rows: min-content 1fr;
   gap: 10px;
 }
