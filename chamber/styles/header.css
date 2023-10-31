@@ -1,13 +1,5 @@
 header {
-  align-items: center;
-  background-color: var(--dark-primary-color);
-  color: var(--text-icons);
-  display: flex;
-  height: 36px;
-  justify-content: right;
-  padding: 0 10px;
-  position: relative;
-  z-index: 10;
+  display: block;
 }
 
 header span:has(>.icon) {
@@ -47,6 +39,7 @@ header .icon img {
   left: 20px;
   top: 8px;
   width: 25px;
+  z-index: 100;
 }
 
 .hamburger-button input {
@@ -84,6 +77,18 @@ header .icon img {
   transform: translateY(23%) !important;
 }
 
+.info-header {
+  align-items: center;
+  background-color: var(--dark-primary-color);
+  color: var(--text-icons);
+  display: flex;
+  height: 36px;
+  justify-content: right;
+  padding: 0 10px;
+  position: relative;
+  z-index: 10;
+}
+
 #menu {
   background-color: var(--dark-primary-color);
   transform: translateY(-100%);
@@ -105,4 +110,22 @@ header .icon img {
   color: var(--light-primary-color);
   display: block;
   padding: 10px 20px;
+}
+
+.navbar {
+  display: block;
+}
+
+.navbar::after {
+  content: "";
+  background-image: url('../images/tiquipaya-night.jpg');
+  background-size: cover;
+  height: 120px;
+  opacity: 0.45;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
 }

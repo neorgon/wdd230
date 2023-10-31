@@ -47,3 +47,27 @@
   filter: invert(16%) sepia(27%) saturate(6575%) hue-rotate(226deg) brightness(105%) contrast(86%);
   width: 0.8rem;
 }
+
+.discover {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 40% 60%;
+  margin: 20px 80px;
+}
+
+.sidebar {
+  grid-column: 1 / 2;
+}
+
+.images {
+  display: grid;
+  grid-column: 2 / 3;
+  grid-template-rows: min-content 1fr;
+  gap: 10px;
+}
+
+.images img {
+  border: 1px solid var(--light-primary-color);
+  border-radius: 7px;
+  padding: 1px;
+}
