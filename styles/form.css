@@ -27,6 +27,11 @@ input:required:valid {
 
 input:focus {
   background-color: #ffffe1;
+  border: 1px solid #333;
+}
+
+*:focus {
+  outline: none;
 }
 
 button {
