@@ -1,0 +1,38 @@
+form {
+  border: 1px solid #999;
+  border-radius: 7px;
+  margin: auto;
+  padding: .75em;
+}
+
+label, input {
+  display: block;
+  margin: .75em 0;
+}
+
+input {
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: .45em;
+}
+
+input:required {
+  border-left: 3px solid #c00;
+}
+
+input:required:valid {
+  border-left: 3px solid #009;
+}
+
+input:focus {
+  background-color: #ffffe1;
+}
+
+button {
+  background-color: #1d4d72;
+  border: 1px solid #333;
+  border-radius: 5px;
+  color: #fff;
+  padding: .45em .75em;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="images/favicon.ico">
+  <title>Nestor R. Otondo - WDD 230 - Web Frontend Development</title>
+  <meta name="author" content="Nestor R. Otondo">
+  <meta name="description" content="WDD 230 - Web Frontend Development,	Nestor R. Otondo, course assignment portal">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/form.css">
+  <link rel="stylesheet" href="styles/larger.css">
+  <link rel="stylesheet" href="styles/media-query.css">
+
+  <!--Search meta tag optimization-->
+  <meta property="og:title" content="BYU-Idaho Web Frontend Course">
+  <meta property="og:type" content="article">
+  <meta property="og:image"
+    content="https://images6.fanpop.com/image/photos/43300000/Salt-Flats-bolivia-43396156-992-415.jpg">
+  <meta property="og:url" content="https://neorgon.github.io/wdd230/">
+  <meta name="twitter:card" content="salt_lake_uyuni_bolivia">
+</head>
+
+<body>
+  <header>
+    <img src="images/nestor-otondo.png" alt="Nestor Otondo">
+    <h1>Nestor R. Otondo</h1>
+    <div class="hamburger-button">
+      <input type="checkbox">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+  <nav id="menu">
+    <ul>
+      <li>
+        <a href="#">Home</a>
+      </li>
+      <li>
+        <a href="chamber/siteplan.html">Site Plan</a>
+      </li>
+      <li>
+        <a href="chamber">Chamber</a>
+      </li>
+      <li>
+        <a href="https://www.byui.edu/" target="_blank">BYU-Idaho</a>
+      </li>
+      <li>
+        <a href="https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/4?lang=eng"
+          target="_blank">Scripture</a>
+      </li>
+    </ul>
+  </nav>
+  <main>
+    <form action="record.html" method="get">
+      <label for="username">Username *</label>
+      <input id="username" name="Username" type="text" required>
+      <label for="password">Password *</label>
+      <input id="password" name="password" type="password" required>
+      <label for="pass-confirm">Password repeat for confirmation *</label>
+      <input id="pass-confirm" name="pass-confirm" type="password" required>
+      <label for="email">E-Mail *</label>
+      <input id="email" name="email" type="email" required>
+      <label for="page-rating">Page Rating</label>
+      <input id="page-rating" name="page-rating" type="number" min="1" max="10">
+      <button type="submit">Register my datas</button>
+    </form>
+  </main>
+  <footer>
+    <p>&copy; <span id="current-year"></span></p>
+    <p>Nestor R. Otondo</p>
+    <p>Bolivia <span><img src="http://flags.fmcdn.net/data/flags/mini/bo.png" alt="Bolivia"></span></p>
+    <p>Last Modified: <span id="last-modified"></span></p>
+  </footer>
+	<script src="scripts/getdates.js"></script>
+</body>
+
+</html>
