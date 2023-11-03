@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat Alternates';
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  margin: 10px auto;
+  border-collapse: collapse;
+}
+
+caption {
+  background-color: #222;
+  color: #eee;
+  font-weight: bold;
+  padding: 20px 0;
+}
+
+thead th:first-child {
+  background-color: #222;
+  border-left: 1px solid #222;
+}
+
+thead th {
+  background-color: #666;
+  color: #ddd;
+  padding: 20px;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #ddd;
+}
+
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  width: 120px;
+}
