@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="images/favicon.ico">
+  <title>Tiquipaya Chamber of Commerce</title>
+  <meta name="author" content="Nestor R. Otondo">
+  <meta name="description"
+    content="Tiquipaya Chamber Commerce, Company directories in the city Tiquipaya, Cochabamba, Bolivia">
+  <link rel="stylesheet" href="styles/base.css">
+
+  <meta property="og:title" content="Tiquipaya Chamber of Commerce">
+	<meta property="og:type" content="article">
+	<meta property="og:image"
+		content="https://images6.fanpop.com/image/photos/43300000/Salt-Flats-bolivia-43396156-992-415.jpg">
+	<meta property="og:url" content="https://neorgon.github.io/wdd230/chamber">
+</head>
+
+<body>
+  <header>
+    <div class="hamburger-button">
+      <input type="checkbox">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="info-header">
+      <span>
+        <i class="icon">
+          <img loading="lazy" src="images/whatsapp-regular.svg" alt="Whatsapp icon">
+        </i>
+        (591) 6077-4557
+      </span>
+      <span>
+        <i class="icon">
+          <img loading="lazy" src="images/envelope-regular.svg" alt="Envelope icon">
+        </i>
+        info@tiquipaya-cc.org
+      </span>
+      <span>
+        <i class="icon">
+          <img loading="lazy" src="images/location-dot-solid.svg" alt="Location icon">
+        </i>
+        Villa Porvenir #6452
+      </span>
+    </div>
+    <div class="navbar">
+      <div class="logo">
+        <a href="index.html">
+          <img src="images/logo-tcc.png" alt="Tiquipaya Commerce Chamber">
+        </a>
+      </div>
+      <nav id="menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="discover.html">Discover</a></li>
+          <li><a href="">Directory</a></li>
+          <li><a href="">Join</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <form action="thankyou.html" method="get">
+      <label for="firstname">First Name: *
+        <input id="firstname" name="firstname" type="text" required>
+      </label>
+      <label for="lastname">Last Name: *
+        <input id="lastname" name="lastname" type="text" required>
+      </label>
+      <label for="position">Title or position:
+        <input id="position" name="position" type="text">
+      </label>
+      <label for="email">Email Address: *
+        <input id="email" name="email" type="email" placeholder="email@example.com" required>
+      </label>
+      <label for="mobile">Mobile Phone Number: *
+        <input id="mobile" name="mobile" type="tel" required>
+      </label>
+      <label for="business">Business/Organization's Name: *
+        <input id="business" name="business" type="text" required>
+      </label>
+      <label for="level">Membership Level:
+        <select name="level" id="level">
+          <option>NP Membership is for non profit organizations and there is no fee.</option>
+          <option>Bronze Membership</option>
+          <option>Silver Membership</option>
+          <option>Gold Membership</option>
+        </select>
+      </label>
+      <label for="description">
+        Business Description:
+        <textarea name="description" id="description" cols="30" rows="10"></textarea>
+      </label>
+      <input name="timestamp" id="timestamp" type="hidden">
+      <button type="submit">Submit my request</button>
+    </form>
+  </main>
+  <footer>
+    <img loading="lazy" src="images/logo-tcc.png" alt="Tiquipaya Chamber Commerce">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="discover.html">Discover</a></li>
+        <li><a href="">Directory</a></li>
+        <li><a href="">Join</a></li>
+      </ul>
+    </nav>
+    <p>
+      <span>
+        <i class="icon">
+          <img loading="lazy" src="images/location-dot-solid.svg" alt="Location icon">
+        </i>
+      </span>
+      Location
+    </p>
+    <p>Tiquipaya, Cochabamba, Bolivia</p>
+    <p>Villa Porvernir #6542</p>
+    <p>
+      <span>
+        <i class="icon">
+          <img loading="lazy" src="images/envelope-regular.svg" alt="Location icon">
+        </i>
+      </span>
+      Contact Us
+    </p>
+    <p>info@tiquipaya-cc.org</p>
+    <p>(591) - 6077-4557</p>
+  </footer>
+  <script src="scripts/utils.js"></script>
+</body>
+
+</html>

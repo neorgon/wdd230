@@ -7,11 +7,28 @@
   header span:has(>.icon) {
     display: inline;
   }
-  
+
   .info-cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 20px;
+  }
+
+  form {
+    width: 65%;
+  }
+
+  form label {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 10px;
+    padding: .45em;
+  }
+
+  form input,
+  form textarea,
+  form select {
+    display: inherit;
   }
 
 }
