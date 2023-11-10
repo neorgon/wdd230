@@ -111,3 +111,29 @@ form select:focus {
   padding: 20px 0;
   text-align: center;
 }
+
+form .red {
+  border: 1px solid #f2711c;
+}
+
+form .message {
+  background-color: #F8D7DA;
+  border: 1px solid #F1AEB5;
+  color: #58151C;
+  display: none;
+  grid-column: 2 / 3;
+  margin: 0 .45em;
+  padding: 7px;
+}
+
+.simple-message {
+  background-color: #fcfcfd;
+  border: 1px solid #e9ecef;
+  margin: .45em auto;
+  padding: 20px;
+  width: 80%;
+}
+
+footer .logo {
+  border-bottom: none;
+}
