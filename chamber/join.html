@@ -57,13 +57,17 @@
           <li><a href="index.html">Home</a></li>
           <li><a href="discover.html">Discover</a></li>
           <li><a href="">Directory</a></li>
-          <li><a href="">Join</a></li>
+          <li><a href="join.html">Join</a></li>
         </ul>
       </nav>
     </div>
   </header>
   <main>
     <form action="thankyou.html" method="get">
+      <div class="form-title">
+        <h2>Join Us</h2>
+      </div>
+      <h3>Personal Information</h3>
       <label for="firstname">First Name: *
         <input id="firstname" name="firstname" type="text" required>
       </label>
@@ -73,12 +77,14 @@
       <label for="position">Title or position:
         <input id="position" name="position" type="text">
       </label>
+      <h3>Contact Information</h3>
       <label for="email">Email Address: *
         <input id="email" name="email" type="email" placeholder="email@example.com" required>
       </label>
       <label for="mobile">Mobile Phone Number: *
         <input id="mobile" name="mobile" type="tel" required>
       </label>
+      <h3>Business Information</h3>
       <label for="business">Business/Organization's Name: *
         <input id="business" name="business" type="text" required>
       </label>
@@ -94,18 +100,22 @@
         Business Description:
         <textarea name="description" id="description" cols="30" rows="10"></textarea>
       </label>
-      <input name="timestamp" id="timestamp" type="hidden">
-      <button type="submit">Submit my request</button>
+      <div class="form-footer">
+        <input name="timestamp" id="timestamp" type="hidden">
+        <button type="submit">Submit my request</button>
+      </div>
     </form>
   </main>
   <footer>
-    <img loading="lazy" src="images/logo-tcc.png" alt="Tiquipaya Chamber Commerce">
+    <a class="logo" href="index.html">
+      <img loading="lazy" src="images/logo-tcc.png" alt="Tiquipaya Chamber Commerce">
+    </a>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="discover.html">Discover</a></li>
         <li><a href="">Directory</a></li>
-        <li><a href="">Join</a></li>
+        <li><a href="join.html">Join</a></li>
       </ul>
     </nav>
     <p>
@@ -130,6 +140,7 @@
     <p>(591) - 6077-4557</p>
   </footer>
   <script src="scripts/utils.js"></script>
+  <script src="scripts/validate.js"></script>
 </body>
 
 </html>

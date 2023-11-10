@@ -27,17 +27,4 @@
     grid-column: auto;
   }
 
-  form label {
-    display: grid;
-    grid-template-columns: 40% 60%;
-    gap: 10px;
-    padding: .45em;
-  }
-
-  form input,
-  form textarea,
-  form select {
-    display: inherit;
-  }
-
 }

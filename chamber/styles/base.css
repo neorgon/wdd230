@@ -94,7 +94,8 @@ img {
   justify-content: center;
 }
 
-.intro-hero button {
+.intro-hero button,
+form button {
   background-color: #2185d0;
 }
 

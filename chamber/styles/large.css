@@ -19,6 +19,7 @@
   }
 
   form label {
+    align-items: center;
     display: grid;
     grid-template-columns: 40% 60%;
     gap: 10px;
