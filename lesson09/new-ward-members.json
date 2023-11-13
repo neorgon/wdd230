@@ -1,0 +1,104 @@
+{
+    "ward": "Linde",
+    "stake": "Sarco",
+    "families": [
+        {
+            "family": "Otondo Anzoleaga",
+            "dateArrived": "19-11-2019",
+            "isBishopricVisited": "yes",
+            "members": [
+                {
+                    "name": "Nestor Otondo",
+                    "gender": "male",
+                    "birthdat": "17-09-1974"
+                },
+                {
+                    "name": "Katerina Otondo",
+                    "gender": "female",
+                    "birthdat": "18-07-1975"
+                },
+                {
+                    "name": "Elena Otondo",
+                    "gender": "female",
+                    "birthdat": "10-05-2007"
+                },
+                {
+                    "name": "Richard Otondo",
+                    "gender": "male",
+                    "birthdat": "20-07-2011"
+                }
+            ]
+        },
+        {
+            "family": "Molleda Argani",
+            "dateArrived": "25-01-2023",
+            "isBishopricVisited": "yes",
+            "members": [
+                {
+                    "name": "Luis Molleda",
+                    "gender": "male",
+                    "birthdat": "13-05-1992"
+                },
+                {
+                    "name": "Gisel Argane",
+                    "gender": "female",
+                    "birthdat": "21-05-1995"
+                },
+                {
+                    "name": "Andres Molleda",
+                    "gender": "male",
+                    "birthdat": "20-03-2012"
+                },
+                {
+                    "name": "Andrea Molleda",
+                    "gender": "female",
+                    "birthdat": "29-03-2014"
+                },
+                {
+                    "name": "Nicolas Molleda",
+                    "gender": "male",
+                    "birthdat": "01-02-2018"
+                }
+            ]
+        },
+        {
+            "family": "Cruz",
+            "dateArrived": "16-06-2005",
+            "isBishopricVisited": "yes",
+            "members": [
+                {
+                    "name": "Richard Cruz",
+                    "gender": "male",
+                    "birthdat": "21-09-1995"
+                }
+            ]
+        },
+        {
+            "family": "Limachi Via",
+            "dateArrived": "14-03-2020",
+            "isBishopricVisited": "no",
+            "members": [
+                {
+                    "name": "Freddy Limachi",
+                    "gender": "male",
+                    "birthdat": "27-10-1975"
+                },
+                {
+                    "name": "Ruth Via",
+                    "gender": "female",
+                    "birthdat": "12-02-1982"
+                },
+                {
+                    "name": "Ivan Limachi",
+                    "gender": "male",
+                    "birthdat": "01-02-2005"
+                },
+                {
+                    "name": "Yoel Limachi",
+                    "gender": "male",
+                    "birthdat": "26-01-2009"
+                }
+            ]
+        }
+    ]
+}
