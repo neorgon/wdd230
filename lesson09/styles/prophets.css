@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto Condensed';
+  text-align: center;
+}
+
+img {
+  height: 440px;
+  max-width: 100%;
+}
+
+main {
+  margin: 20px 60px;
+}
+
+#cards {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+section {
+  align-items: center;
+  background-color: #CFE2FF;
+  border: 1px solid #9EC5FE;
+  border-radius: 5px;
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: column;
+  padding: 20px;
+}
+
+section img {
+  background-color: #FCFCFD;
+  border: 1px solid #E9ECEF;
+  border-radius: 3px;
+  padding: 5px;
+}
