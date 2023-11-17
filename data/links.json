@@ -1,0 +1,70 @@
+{
+  "lessons" : [
+    {
+      "lesson": "02",
+      "links": [
+        {
+          "url": "lesson02/media-query.html",
+          "title": "Media Query"
+        },
+        {
+          "url": "lesson02/design-principles.html",
+          "title": "Design Principles Document"
+        }
+      ]
+    },
+    {
+      "lesson": "03",
+      "links": [
+        {
+          "url": "images/w3shools-combinators-excercise-results.png",
+          "title": "W3Schools Combinator Exercise Results"
+        },
+        {
+          "url": "lesson03/chamber-site-plan.html",
+          "title": "Chamber Site Plan"
+        }
+      ]
+    },
+    {
+      "lesson": "04",
+      "links": [
+        {
+          "url": "https://codepen.io/Nestor-Otondo/pen/PoXxmgM",
+          "title": "CSS Pseudo Classes Exercise"
+        },
+        {
+          "url": "chamber/",
+          "title": "Chamber Project"
+        }
+      ]
+    },
+    {
+      "lesson": "05",
+      "links": [
+        {
+          "url": "lesson05/bom.html",
+          "title": "DOM Manipulation"
+        }
+      ]
+    },
+    {
+      "lesson": "08",
+      "links": [
+        {
+          "url": "lesson08/tablebuild.html",
+          "title": "Build Tables"
+        }
+      ]
+    },
+    {
+      "lesson": "09",
+      "links": [
+        {
+          "url": "lesson09/prophets.html",
+          "title": "Prophets"
+        }
+      ]
+    }
+  ]
+}

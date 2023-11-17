@@ -1,4 +1,4 @@
-@media screen and (max-width: 860px) {
+@media screen and (min-width: 860px) {
 
   nav {
     display: none;
@@ -12,7 +12,9 @@
     padding: 10px 0;
   }
 
-  main section {
+  main {
+    display: grid;
+    gap: 20px;
     grid-template-columns: 50% 50%;
   }
 
