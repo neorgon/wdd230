@@ -1,0 +1,76 @@
+{
+  "members": [
+    {
+      "name": "CyberDine",
+      "level": "Silver Membership",
+      "address": "3356 Rondonia Av.",
+      "phone": "+591 452 2000",
+      "url": "https://www.ciberdine.com/",
+      "img": "https://api-ninjas-data.s3.us-west-2.amazonaws.com/logos/l11f3242118ff2add5d117cbf216f29ac578f6ba6.png",
+      "description": "Lorem Ipsum dolor sit amet consectetur, Bellut luna et crecente or decresis."
+    },
+    {
+      "name": "Crexsus",
+      "level": "Silver Membership",
+      "address": "3356 Rondonia Av.",
+      "phone": "+591 452 2000",
+      "url": "https://www.crexsus.com/",
+      "img": "https://api-ninjas-data.s3.us-west-2.amazonaws.com/logos/lfc4548375734de4aa0151bef377e72b1708b5072.png",
+      "description": "Lorem Ipsum dolor sit amet consectetur, Bellut luna et crecente or decresis."
+    },
+    {
+      "name": "Umbrella",
+      "level": "Gold Membership",
+      "address": "3356 Rondonia Av.",
+      "phone": "+591 452 2000",
+      "url": "https://www.umbrella.com/",
+      "img": "https://api-ninjas-data.s3.us-west-2.amazonaws.com/logos/l3f3b8e71aff364e0983afa08c584d7da66d0b041.png",
+      "description": "Lorem Ipsum dolor sit amet consectetur, Bellut luna et crecente or decresis."
+    },
+    {
+      "name": "Willy Wonka",
+      "level": "Silver Membership",
+      "address": "3356 Rondonia Av.",
+      "phone": "+591 452 2000",
+      "url": "https://www.wonka.com/",
+      "img": "https://api-ninjas-data.s3.us-west-2.amazonaws.com/logos/l0723013335c55d4193228fb0f1f0de4a4526aec0.png",
+      "description": "Lorem Ipsum dolor sit amet consectetur, Bellut luna et crecente or decresis."
+    },
+    {
+      "name": "Nordstral Pharmaceuticals",
+      "level": "Gold Membership",
+      "address": "3356 Rondonia Av.",
+      "phone": "+591 452 2000",
+      "url": "https://www.nordstral.com/",
+      "img": "https://api-ninjas-data.s3.us-west-2.amazonaws.com/logos/l50c854beeb0f6a4e3465b44ab16cd02c9c0bb6b4.png",
+      "description": "Lorem Ipsum dolor sit amet consectetur, Bellut luna et crecente or decresis."
+    },
+    {
+      "name": "Omni Consumer Products",
+      "level": "Bronze Membership",
+      "address": "3356 Rondonia Av.",
+      "phone": "+591 452 2000",
+      "url": "https://www.omni.com/",
+      "img": "https://api-ninjas-data.s3.us-west-2.amazonaws.com/logos/l45f853acc01ae7540dca9e4615c58c9952b64254.png",
+      "description": "Lorem Ipsum dolor sit amet consectetur, Bellut luna et crecente or decresis."
+    },
+    {
+      "name": "Salamander",
+      "level": "Silver Membership",
+      "address": "3356 Rondonia Av.",
+      "phone": "+591 452 2000",
+      "url": "https://www.salamander.com/",
+      "img": "https://api-ninjas-data.s3.us-west-2.amazonaws.com/logos/l5983871b10851aeac6c9ae440381f15637b9d400.png",
+      "description": "Lorem Ipsum dolor sit amet consectetur, Bellut luna et crecente or decresis."
+    },
+    {
+      "name": "TOX1C",
+      "level": "Silver Membership",
+      "address": "3356 Rondonia Av.",
+      "phone": "+591 452 2000",
+      "url": "https://www.tox1c.com/",
+      "img": "https://api-ninjas-data.s3.us-west-2.amazonaws.com/logos/laf541f0e01ad46d7289ebf09555ad3f5da961b97.png",
+      "description": "Lorem Ipsum dolor sit amet consectetur, Bellut luna et crecente or decresis."
+    }
+  ]
+}

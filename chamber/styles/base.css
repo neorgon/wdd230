@@ -17,6 +17,9 @@
 
   --accent-rgb: 63 81 181;
   --primary-rgb: var(--accent-rgb);
+
+  --border-card-color: rgba(0, 0, 0, 0.175);
+  --card-title-bg-color: rgba(33, 37, 41, 0.03);
 }
 
 * {

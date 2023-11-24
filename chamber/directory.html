@@ -5,11 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="images/favicon.ico">
-  <title>Join Us - Tiquipaya Chamber of Commerce</title>
+  <title>Tiquipaya Chamber of Commerce</title>
   <meta name="author" content="Nestor R. Otondo">
   <meta name="description"
     content="Tiquipaya Chamber Commerce, Company directories in the city Tiquipaya, Cochabamba, Bolivia">
-  <link rel="stylesheet" href="styles/base.css" type="text/css">
+  <link rel="stylesheet" href="styles/base.css">
 
   <meta property="og:title" content="Tiquipaya Chamber of Commerce">
 	<meta property="og:type" content="article">
@@ -63,49 +63,11 @@
     </div>
   </header>
   <main>
-    <form action="thankyou.html" method="get">
-      <div class="form-title">
-        <h2>Join Us</h2>
-      </div>
-      <h3>Personal Information</h3>
-      <label for="firstname">First Name: *
-        <input id="firstname" name="firstname" type="text" required>
-      </label>
-      <label for="lastname">Last Name: *
-        <input id="lastname" name="lastname" type="text" required>
-      </label>
-      <label for="position">Title or position: *
-        <input id="position" name="position" type="text" required>
-        <span class="message">This field only must contain alpha char, space or hyphens and must be seven char minimum</span>
-      </label>
-      <h3>Contact Information</h3>
-      <label for="email">Email Address: *
-        <input id="email" name="email" type="email" placeholder="email@example.com" required>
-      </label>
-      <label for="mobile">Mobile Phone Number: *
-        <input id="mobile" name="mobile" type="tel" required>
-      </label>
-      <h3>Business Information</h3>
-      <label for="business">Business/Organization's Name: *
-        <input id="business" name="business" type="text" required>
-      </label>
-      <label for="level">Membership Level:
-        <select name="level" id="level">
-          <option>NP Membership is for non profit organizations and there is no fee.</option>
-          <option>Bronze Membership</option>
-          <option>Silver Membership</option>
-          <option>Gold Membership</option>
-        </select>
-      </label>
-      <label for="description">
-        Business Description:
-        <textarea name="description" id="description" cols="30" rows="10"></textarea>
-      </label>
-      <div class="form-footer">
-        <input name="timestamp" id="timestamp" type="hidden">
-        <button id="submit" type="submit">Submit my request</button>
-      </div>
-    </form>
+    <section class="display-options">
+      <button>Grid</button>
+      <button>List</button>
+    </section>
+    <section id="directory"></section>
   </main>
   <footer>
     <a class="logo" href="index.html">
@@ -141,7 +103,7 @@
     <p>(591) - 6077-4557</p>
   </footer>
   <script src="scripts/utils.js"></script>
-  <script src="scripts/validate.js"></script>
+  <script src="scripts/members.js"></script>
 </body>
 
 </html>
