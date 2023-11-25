@@ -98,7 +98,8 @@ img {
 }
 
 .intro-hero button,
-form button {
+form button,
+.display-options button {
   background-color: #2185d0;
 }
 
