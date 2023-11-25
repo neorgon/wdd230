@@ -1,4 +1,12 @@
-const url = 'http://127.0.0.1:5500/chamber/data/members.json';
+let baseURL = '';
+if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') {
+  baseURL = 'http://127.0.0.1:5500/';
+}
+else {
+  baseURL = 'https://neorgon.github.io/wdd230/';
+}
+
+const url = `${baseURL}chamber/data/members.json`;
 const directory = document.getElementById('directory');
 
 const getMembers = async () => {
@@ -55,6 +63,7 @@ const displayMembers = async (members) => {
     card.classList.add('card');
     title.classList.add('card-title');
     bodyCard.classList.add('body-card');
+    description.classList.add('description');
     title.textContent = company.name;
     description.textContent = company.description;
     address.appendChild(iconSpanAddress);
@@ -76,3 +85,16 @@ const displayMembers = async (members) => {
     directory.appendChild(card);
   });
 }
+
+const gridButton = document.getElementById('grid-button');
+const listButton = document.getElementById('list-button');
+
+gridButton.addEventListener('click', () => {
+  directory.classList.add('grid');
+  directory.classList.remove('list');
+});
+
+listButton.addEventListener('click', () => {
+  directory.classList.add('list');
+  directory.classList.remove('grid');
+});

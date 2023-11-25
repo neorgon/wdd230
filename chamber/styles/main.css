@@ -154,3 +154,34 @@ main > section {
 #directory {
   padding: 20px;
 }
+
+#directory.list > .card > .body-card > img,
+#directory.list .body-card p.description {
+  display: none;
+}
+
+#directory.list {
+  display: block;
+}
+
+#directory.list > .card {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#directory.list .card-title {
+  font-size: 1.25rem;
+  border-bottom: none;
+}
+
+#directory.list .body-card {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 40% 40% 20%;
+  padding: 0 10px;
+}
+
+#directory.list .body-card p {
+  margin: 0;
+}
