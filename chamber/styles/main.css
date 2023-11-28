@@ -146,7 +146,8 @@ footer .logo {
   border-bottom: none;
 }
 
-main > section {
+main > section,
+.display-options {
   margin: .45em auto;
   padding: .75em;
 }
