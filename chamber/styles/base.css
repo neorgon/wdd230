@@ -136,3 +136,13 @@ footer .icon img {
   filter: invert(86%) sepia(5%) saturate(1249%) hue-rotate(196deg) brightness(97%) contrast(88%);
   height: 16px;
 }
+
+.footer-info {
+  margin-top: 20px;
+}
+
+.footer-info p {
+  font-size: 0.65rem;
+  font-weight: normal;
+  text-align: center;
+}
