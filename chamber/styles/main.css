@@ -38,7 +38,7 @@
   text-align: right;
 }
 
-.body-card button {
+.body-card .button {
   background-color: #f2711c;
 }
 
@@ -185,4 +185,25 @@ footer .logo {
 
 #directory.list .body-card p {
   margin: 0;
+}
+
+.tiquipaya-info {
+  border: 1px solid var(--border-card-color);
+  border-radius: 5px;
+  font-size: 0.95rem;
+  margin: 20px;
+  padding: 10px;
+}
+
+.tiquipaya-info p {
+  align-items: center;
+  display: flex;
+}
+
+.tiquipaya-info p span {
+  padding: 0 5px;
+}
+
+#temp {
+  font-weight: bold;
 }

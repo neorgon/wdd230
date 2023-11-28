@@ -82,112 +82,15 @@
         </section>
       </div>
     </div>
-    <section class="info-cards">
-      <div class="card">
-        <div class="header-card">
-          <img loading="lazy" src="images/artesania-masetas.jpg" alt="Tiquipaya Artesanías">
-        </div>
-        <div class="body-card">
-          <h1>Tiquipaya Chamber of Commerce</h1>
-          <p>Caesa regio, est surgere. Humanas membra duae effervescere, rectumque lanient postquam pulsant satus.
-            Summaque peragebant aetas pondus...</p>
-          <p>
-            <span>
-              <i class="icon">
-                <img loading="lazy" src="images/location-dot-solid.svg" alt="Location icon">
-              </i>
-            </span>
-            Litoral street #8855
-          </p>
-          <p>
-            <span>
-              <i class="icon">
-                <img loading="lazy" src="images/envelope-regular.svg" alt="Envelope icon">
-              </i>
-            </span>
-            fortuna@example.com
-          </p>
-          <p>
-            <span>
-              <i class="icon">
-                <img loading="lazy" src="images/whatsapp-regular.svg" alt="Whatsapp icon">
-              </i>
-            </span>
-            (591) 6075-4292
-          </p>
-          <p><button>Details</button></p>
-        </div>
+    <section id="filter-gold-members" class="info-cards"></section>
+    <section class="tiquipaya-info">
+      <h2>Tiquipaya, Cochabamba, Bolivia</h2>
+      <div id="weather">
+        <h3>Data Weather</h3>
+        <p>Temp: <span id="temp"></span> <span><img id="w-icon" src="" alt="Weather"></span></p>
+        <p>Feels like: <span id="feels-like"></span><span id="w-main"></span><span id="w-description"></span></p>
       </div>
-      <div class="card">
-        <div class="header-card">
-          <img loading="lazy" src="images/artesania-masetas.jpg" alt="Tiquipaya Artesanías">
-        </div>
-        <div class="body-card">
-          <h1>Fortuna bellut luna</h1>
-          <p>Caesa regio, est surgere. Humanas membra duae effervescere, rectumque lanient postquam pulsant satus.
-            Summaque peragebant aetas pondus...</p>
-          <p>
-            <span>
-              <i class="icon">
-                <img loading="lazy" src="images/location-dot-solid.svg" alt="Location icon">
-              </i>
-            </span>
-            Litoral street #8855
-          </p>
-          <p>
-            <span>
-              <i class="icon">
-                <img loading="lazy" src="images/envelope-regular.svg" alt="Envelope icon">
-              </i>
-            </span>
-            fortuna@example.com
-          </p>
-          <p>
-            <span>
-              <i class="icon">
-                <img loading="lazy" src="images/whatsapp-regular.svg" alt="Whatsapp icon">
-              </i>
-            </span>
-            (591) 6075-4292
-          </p>
-          <p><button>Details</button></p>
-        </div>
-      </div>
-      <div class="card">
-        <div class="header-card">
-          <img loading="lazy" src="images/artesania-masetas.jpg" alt="Tiquipaya Artesanías">
-        </div>
-        <div class="body-card">
-          <h1>Fortuna bellut luna</h1>
-          <p>Caesa regio, est surgere. Humanas membra duae effervescere, rectumque lanient postquam pulsant satus.
-            Summaque peragebant aetas pondus...</p>
-          <p>
-            <span>
-              <i class="icon">
-                <img loading="lazy" src="images/location-dot-solid.svg" alt="Location icon">
-              </i>
-            </span>
-            Litoral street #8855
-          </p>
-          <p>
-            <span>
-              <i class="icon">
-                <img loading="lazy" src="images/envelope-regular.svg" alt="Envelope icon">
-              </i>
-            </span>
-            fortuna@example.com
-          </p>
-          <p>
-            <span>
-              <i class="icon">
-                <img loading="lazy" src="images/whatsapp-regular.svg" alt="Whatsapp icon">
-              </i>
-            </span>
-            (591) 6075-4292
-          </p>
-          <p><button>Details</button></p>
-        </div>
-      </div>
+      <div id="next-days"></div>
     </section>
   </main>
   <footer>
@@ -234,6 +137,8 @@
   </footer>
   <script src="scripts/utils.js"></script>
   <script src="scripts/getdates.js"></script>
+  <script src="scripts/filter-members.js"></script>
+  <script src="scripts/weather.js"></script>
 </body>
 
 </html>

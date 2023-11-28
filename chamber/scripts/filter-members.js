@@ -7,16 +7,17 @@ else {
 }
 
 const url = `${baseURL}chamber/data/members.json`;
-const directory = document.getElementById('directory');
+const filterDisplay = document.getElementById('filter-gold-members');
 
-const getMembers = async () => {
+const filterGoldMembers = async() => {
   const response = await fetch(url);
   const data = await response.json();
 
-  displayMembers(data.members);
+  console.log(data.members.filter(member => member.level == "Gold Membership"));
+  displayFilter(data.members.filter(member => member.level == "Gold Membership"));
 }
 
-getMembers();
+filterGoldMembers();
 
 const createIconAddress = () => {
   let iconI = document.createElement('i');
@@ -42,11 +43,10 @@ const createIconPhone = () => {
   return iconI;
 }
 
-const displayMembers = async (members) => {
-  
-  await members.forEach(company => {
+const displayFilter = (members) => {
+  members.forEach(company => {
     let card = document.createElement('div');
-    let title = document.createElement('div');
+    let headerCard = document.createElement('div');
     let bodyCard = document.createElement('div');
     let img = document.createElement('img');
     let description = document.createElement('p');
@@ -60,10 +60,12 @@ const displayMembers = async (members) => {
     iconSpanAddress.appendChild(createIconAddress());
     iconSpanPhone.appendChild(createIconPhone());
     card.classList.add('card');
-    title.classList.add('card-title');
+    headerCard.classList.add('header-card');
     bodyCard.classList.add('body-card');
     description.classList.add('description');
-    title.textContent = company.name;
+    img.setAttribute('src', company.img);
+    img.setAttribute('alt', company.name);
+    headerCard.appendChild(img);
     description.textContent = company.description;
     address.appendChild(iconSpanAddress);
     address.appendChild(document.createTextNode(company.address));
@@ -71,29 +73,14 @@ const displayMembers = async (members) => {
     phone.appendChild(document.createTextNode(company.phone));
     url.textContent = 'Details';
     url.href = company.url;
+    url.classList.add('button');
     details.appendChild(url);
-    img.setAttribute('src', company.img);
-    img.setAttribute('alt', company.name);
-    bodyCard.appendChild(img);
     bodyCard.appendChild(description);
     bodyCard.appendChild(address);
     bodyCard.appendChild(phone);
     bodyCard.appendChild(details);
-    card.appendChild(title);
+    card.appendChild(headerCard);
     card.appendChild(bodyCard);
-    directory.appendChild(card);
+    filterDisplay.appendChild(card);
   });
 }
-
-const gridButton = document.getElementById('grid-button');
-const listButton = document.getElementById('list-button');
-
-gridButton.addEventListener('click', () => {
-  directory.classList.add('grid');
-  directory.classList.remove('list');
-});
-
-listButton.addEventListener('click', () => {
-  directory.classList.add('list');
-  directory.classList.remove('grid');
-});
