@@ -1,0 +1,14 @@
+.hero-section {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2d6;
+  height: 768px;
+  max-height: 768px;
+}
+
+.hero-section,
+.quick-view-section,
+.front-price-section,
+.shared-gallery-section,
+.cozumel-preview-section {
+  margin: 10px 0;
+}

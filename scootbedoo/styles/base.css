@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&display=swap');
+@import url('header.css');
+@import url('main.css');
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Cabin';
+  font-size: 1rem;
+  margin: 0;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.container {
+  font-family: 'Barlow';
+  margin: 0 auto;
+  max-width: 1320px;
+}
