@@ -24,6 +24,13 @@ img {
   max-width: 100%;
 }
 
+h3,
+h5,
+ul,
+p {
+  margin: 0;
+}
+
 .container {
   font-family: 'Barlow';
   margin: 0 auto;
