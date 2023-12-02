@@ -6,7 +6,6 @@
 
 .quick-view-section,
 .front-price-section,
-.call-us-section,
 .shared-gallery-section,
 .cozumel-preview-section {
   margin: 10px 0;
@@ -81,8 +80,7 @@
 .price .card .card-body h3,
 .price .card .card-body h5,
 .price .card .card-body ul,
-.price .card .card-body p,
-.price .card .card-footer p {
+.price .card .card-body p {
   padding: 10px 20px;
 }
 
@@ -121,6 +119,10 @@
   background-color: #0051f2;
 }
 
+.card-footer p {
+  padding: 10px 0;
+}
+
 .call-us-section {
   align-items: center;
   background-color: #5401c1;
@@ -129,7 +131,7 @@
   display: grid;
   gap: 20px;
   grid-template-columns: 1fr 1fr;
-  margin: 0 auto;
+  margin: 20px auto;
   padding: 20px;
   width: 840px;
 }
@@ -161,4 +163,35 @@
 
 .call-us-section div:last-child {
   text-align: center;
+}
+
+.shared-gallery-section h2 {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.shared-gallery-section .rrss {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.rrss {
+  margin: 40px auto;
+}
+
+.rrss p {
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.rrss p a {
+  color: #ff7027;
+}
+
+.shared-gallery-section .gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
 }
