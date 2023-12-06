@@ -10,3 +10,66 @@ footer {
   padding: 20px 0;
   text-align: center;
 }
+
+.footer-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.footer-grid .about > *,
+.footer-grid .locations > *,
+.footer-grid .contact-us > * {
+  margin-bottom: 20px;
+}
+
+.about h3,
+.locations h3,
+.contact-us h3 {
+  border-bottom: 1px solid #666;
+  padding-bottom: 10px;
+}
+
+.social-media a {
+  color: #fff;
+  padding: 0 10px;
+}
+
+.social-media i {
+  font-size: 1.45rem;
+}
+
+.social-media a:first-child {
+  padding-left: 0;
+}
+
+.social-media a:last-child {
+  padding-right: 0;
+}
+
+.pay-methods {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: auto auto auto;
+}
+
+.pay-methods a {
+  align-items: center;
+  border: 2px solid #ff7027;
+  border-radius: 5px;
+  color: #ff7027;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.pay-methods a:hover {
+  background-color: rgba(255, 255, 255, .25);
+}
+
+.pay-methods a i {
+  font-size: 1.45rem;
+  padding-right: 10px;
+}
