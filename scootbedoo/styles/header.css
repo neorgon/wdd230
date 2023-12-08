@@ -61,3 +61,31 @@ nav > .container {
   padding: 7px 14px;
   color: #fff;
 }
+
+.quick-contact {
+  display: flex;
+  gap: 20px;
+}
+
+.quick-contact span {
+  align-items: center;
+  display: flex;
+}
+
+.quick-contact span i {
+  margin-right: 5px;
+}
+
+header section .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+header section .social-media,
+header section .social-media a {
+  color: #999;
+}
+
+header section .social-media a:hover {
+  color: #333;
+}
