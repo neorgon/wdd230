@@ -14,8 +14,7 @@ nav > .container {
   align-items: center;
   display: flex;
   font-family: 'Cabin';
-  justify-content: flex-start;
-  width: 100%;
+  justify-content: space-between;
 }
 
 .logo {
@@ -24,13 +23,10 @@ nav > .container {
   padding-right: 20px;
 }
 
-.nav-bar {
-  display: flex;
-  flex-direction: row;
-  padding: 0 20px;
-}
-
 .nav-bar > ul {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
   list-style-type: none;
   margin: 0;
 }
@@ -50,7 +46,7 @@ nav > .container {
 
 .nav-bar ul li a {
   color: #f6f5ff;
-  padding: 7px 15px;
+  padding: 5px;
   text-decoration: none;
 }
 
@@ -58,8 +54,8 @@ nav > .container {
   background-color: rgba(255, 255, 255, .25);
   border: 1px solid #fff;
   border-radius: 5px;
-  padding: 7px 14px;
   color: #fff;
+  padding: 5px 4px;
 }
 
 .quick-contact {
@@ -88,4 +84,70 @@ header section .social-media a {
 
 header section .social-media a:hover {
   color: #333;
+}
+
+.hamburger-button {
+  cursor: pointer;
+  height: 26px;
+  position: absolute;
+  right: 20px;
+  top: 23px;
+  width: 32px;
+}
+
+.hamburger-button input {
+  cursor: pointer;
+  height: 25px;
+  opacity: 0;
+  position: absolute;
+  right: -3px;
+  top: -4px;
+  width: 35px;
+  z-index: 10;
+}
+
+.hamburger-button span {
+  background-color: #fff;
+  border-radius: 5px;
+  display: block;
+  height: 4px;
+  margin-bottom: 3px;
+  width: 100%;
+}
+
+.hamburger-button input:checked ~ span {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger-button input:checked ~ span:nth-last-child(2) {
+  transform: rotate(-45deg) translate(0, 0);
+}
+
+.hamburger-button input:checked ~ span:nth-last-child(1) {
+  opacity: 0;
+}
+
+.nav-bar.show-menu {
+  background-color: #ff7027;
+  display: block;
+  flex-direction: column;
+  left: 0;
+  padding: 0;
+  position: absolute;
+  top: 63px;
+  width: 100%;
+}
+
+.nav-bar.show-menu > ul {
+  margin-bottom: 10px;
+}
+
+.nav-bar.show-menu > ul > li {
+  display: block;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.show-menu {
+  transform: translateY(0);
 }
