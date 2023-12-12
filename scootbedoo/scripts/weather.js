@@ -11,7 +11,6 @@ const getWeatherData = async () => {
       throw new Error(`ERROR: ${response.status} ${response.statusText}`)
     }
     const data = await response.json();
-    console.log(data);
     displayWeatherData(data);
   }
   catch (error) {
