@@ -8,7 +8,7 @@
 .front-price-section,
 .shared-gallery-section,
 .cozumel-preview-section {
-  margin: 10px 0;
+  margin: 20px 0;
 }
 
 .hero-image img {
@@ -220,4 +220,43 @@
 
 #weather p span:first-child {
   font-weight: bold;
+}
+
+.advantages {
+  align-items: center;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 20px 0;
+}
+
+.advantages > * {
+  text-align: center;
+}
+
+.advantages i,
+.company-history i {
+  border: 2px dashed #0051f2;
+  border-radius: 50%;
+  color: #0051f2;
+  font-size: 3rem;
+  padding: 15px;
+}
+
+.company-history {
+  background-color: #f8f8f8;
+}
+
+.company-history > .container {
+  margin: 20px auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.company-history p {
+  line-height: 165%;
+}
+
+.company-history > .container > div {
+  text-align: center;
 }

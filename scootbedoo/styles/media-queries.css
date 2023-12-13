@@ -44,27 +44,26 @@
   .front-price-section .price {
     gap: 20px;
   }
-  
+
 }
 
 @media screen and (min-width: 769px) {
-  
+
   .hamburger-button {
     display: none;
   }
-  
+
 }
 
 @media screen and (max-width: 890px) {
-  
-    .call-us-section {
-      margin: 20px;
-      width: auto;
-    }
-  
+
+  .call-us-section {
+    margin: 20px;
+    width: auto;
+  }
+
 }
 
 @media only screen and (max-width: 992px) {}
 
-@media only screen and (max-width: 1200px) {
-}
+@media only screen and (max-width: 1200px) {}
