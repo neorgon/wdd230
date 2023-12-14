@@ -1,0 +1,40 @@
+.contact-form-container {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.contact-form-container div:first-child {
+  background-color: #f8f8f8;
+  border-right: 1px solid #ccc;
+  padding: 40px 0;
+}
+
+form h3 {
+  text-align: center;
+}
+
+form label,
+form input,
+form textarea {
+  display: block;
+  margin: .75rem 0;
+}
+
+form input,
+form textarea {
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: .45rem;
+  width: 350px;
+}
+
+form textarea {
+  height: 180px !important;
+  resize: none;
+}
+
+form button:hover {
+  cursor: pointer;
+}

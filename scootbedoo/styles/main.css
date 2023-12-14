@@ -106,7 +106,8 @@
   font-weight: bolder;
 }
 
-.card-footer a {
+.card-footer a,
+form button {
   background-color: #009dfe;
   border: 1px solid #0051f2;
   border-radius: 3px;
@@ -115,7 +116,8 @@
   padding: 10px 20px;
 }
 
-.card-footer a:hover {
+.card-footer a:hover,
+form button:hover {
   background-color: #0051f2;
 }
 
@@ -259,4 +261,8 @@
 
 .company-history > .container > div {
   text-align: center;
+}
+
+.show-map > iframe {
+  width: 100%;
 }
