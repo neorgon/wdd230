@@ -1,0 +1,100 @@
+{
+  "items": [
+    {
+      "image": "images/22-Honda-Metropolitan_Coastal Blue.jpg",
+      "item": "Honda Metropolitan Coastal Blue",
+      "model": "Model 2016",
+      "attributes": [
+        {
+          "attribute": "A 49cc OHC four-stroke engine provides ample power for around-town trips while also keeping the fun factor high and sipping fuel."
+        },
+        {
+          "attribute": "Programmed Fuel Injection (PGM-FI) delivers excellent throttle response over a wide variety of riding conditions."
+        },
+        {
+          "attribute": "Inner storage bin can hold a 1-liter bottle, and a large convenience hook allows the rider to conveniently secure a bag."
+        }
+      ],
+      "price": "30"
+    },
+    {
+      "image": "images/honda-dio.webp",
+      "item": "Honda Dio",
+      "model": "Model 2022",
+      "attributes": [
+        {
+          "attribute": "The iconic mischievous LED position lamp on Dio now shines bright with a new LED headlamp. Make heads turn twice."
+        },
+        {
+          "attribute": "Combined braking system ensures rider is in full control whilst the retractable hooks make it a breeze to carry anything and everything."
+        },
+        {
+          "attribute": "Reduce the chance of immediate tire deflation, which ensures rider safety."
+        }
+      ],
+      "price": "40"
+    },
+    {
+      "image": "images/honda-pioneer-1000.jpg",
+      "item": "Honda Pioneer 1000",
+      "model": "Model 2024",
+      "attributes": [
+        {
+          "attribute": "Our Honda Electric Power Steering has always been a groundbreaking innovation, especially with its next-generation brushless motor, and return-to-center function. (Available on Pioneer 700 Deluxe and Pioneer 700 Forest)"
+        },
+        {
+          "attribute": "With the Honda Pioneer 1000 Deluxe and Pioneer 700 Forest, you can let the automatic transmission shift for you, or you can take charge and choose which gear you want for yourself via the steering column mounted paddle shifters—you can even shift from auto to manual (AT to MT) on the fly!"
+        }
+      ],
+      "price": "50"
+    },
+    {
+      "image": "images/honda-pcx150-scooter-review-specs-price-pcx-150-motorcycle-automatic-1.webp",
+      "item": "Honda PCX150 Automatic",
+      "model": "Model 2022",
+      "attributes": [
+        {
+          "attribute": "A 49cc OHC four-stroke engine provides ample power for around-town trips while also keeping the fun factor high and sipping fuel."
+        },
+        {
+          "attribute": "Programmed Fuel Injection (PGM-FI) delivers excellent throttle response over a wide variety of riding conditions."
+        },
+        {
+          "attribute": "Inner storage bin can hold a 1-liter bottle, and a large convenience hook allows the rider to conveniently secure a bag."
+        }
+      ],
+      "price": "50"
+    },
+    {
+      "image": "images/jeep-wrangler.jpeg",
+      "item": "Jeep Wrangler A/C 4 Door",
+      "model": "Model 2023",
+      "attributes": [
+        {
+          "attribute": "The iconic mischievous LED position lamp on Dio now shines bright with a new LED headlamp. Make heads turn twice."
+        },
+        {
+          "attribute": "Combined braking system ensures rider is in full control whilst the retractable hooks make it a breeze to carry anything and everything."
+        },
+        {
+          "attribute": "Reduce the chance of immediate tire deflation, which ensures rider safety."
+        }
+      ],
+      "price": "100"
+    },
+    {
+      "image": "http://127.0.0.1:5500/scootbedoo/images/BDKW_5258635-IMG_001_P04_ANG_A__44834.jpg",
+      "item": "Jeep Wrangler 2 Door Open Air",
+      "model": "Model 2024",
+      "attributes": [
+        {
+          "attribute": "Our Honda Electric Power Steering has always been a groundbreaking innovation, especially with its next-generation brushless motor, and return-to-center function. (Available on Pioneer 700 Deluxe and Pioneer 700 Forest)"
+        },
+        {
+          "attribute": "With the Honda Pioneer 1000 Deluxe and Pioneer 700 Forest, you can let the automatic transmission shift for you, or you can take charge and choose which gear you want for yourself via the steering column mounted paddle shifters—you can even shift from auto to manual (AT to MT) on the fly!"
+        }
+      ],
+      "price": "85"
+    }
+  ]
+}
